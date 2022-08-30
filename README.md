@@ -40,3 +40,6 @@
             # Use Live Server
                 + Open Command Palette : Shift + Ctrl + P / Shift + Command + P
                 + Live Server: Open with Live Server
+
+            # Reference
+                + JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript
