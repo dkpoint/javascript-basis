@@ -21,7 +21,7 @@
                 + JavaScript > Preferences: Quote Style = single
                 + TypeScript > Preferences: Quote Style = single
 
-            # Keyboard Shorcuts(Windows OS / Mac OS)
+            # Keyboard Shortcuts(Windows OS / Mac OS)
                 + Settings : Ctrl + , / Command + ,
                 + Command Palette : Shift + Ctrl + P / Shift + Command + P
                 + Quick Open : Ctrl + P / Command + P
@@ -40,6 +40,12 @@
             # Use Live Server
                 + Open Command Palette : Shift + Ctrl + P / Shift + Command + P
                 + Live Server: Open with Live Server
+
+            # Use Nodemon
+                + Open Terminal : Ctrl + `
+                + Install Nodemon : npm install nodemon --location=global
+                + Run Js : nodemon index.js
+                + Exit Nodemon : Ctrl + C
 
             # Reference
                 + JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript
