@@ -47,5 +47,14 @@
                 + Run Js : nodemon index.js
                 + Exit Nodemon : Ctrl + C
 
+            # Commit Message Type
+                + Feat: A new feature.
+                + Fix: A bug fix.
+                + Docs: Changes to documentation.
+                + Style: Formatting, comments, etc; No code change.
+                + Refactor: Refactoring production code.
+                + Test: Adding tests, refactoring test; No production code change.
+                + Chore: Updating build tasks, package manager configurations, etc; No production code change.
+
             # Reference
                 + JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript
