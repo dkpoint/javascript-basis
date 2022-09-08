@@ -9,8 +9,8 @@ let isFalse = false;
 console.log(isTrue);
 console.log(isFalse);
 
-// Falshy(거짓인 값)
-console.log('\u2606 Falshy');
+// Falsy(거짓인 값)
+console.log('\u2606 Falsy');
 console.log(Boolean(0));
 console.log(!!-0);
 console.log(!!NaN);
