@@ -12,6 +12,7 @@
                 + Live Server
 
             # Settings
+                + Editor > Tab Size = 2
                 + Editor > Bracket Pair Colorization: Enabled = Check V
                 + Editor > Format On Save = Check V
                 + Editor > Default Formatter : Prettier - Code formatter
