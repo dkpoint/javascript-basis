@@ -20,7 +20,7 @@ console.log(undefined);
 
 eval('const num = 2; console.log(num)'); // 2
 
-console.log(isFinite(1)); // ture
+console.log(isFinite(1)); // true
 console.log(isFinite(Infinity)); // false
 
 console.log(parseInt('12.34')); // 12
