@@ -28,6 +28,7 @@
                 + Quick Open : Ctrl + P / Command + P
                 + Toggle Sidebar : Ctrl + B / Command + B
                 + Toggle Terminal : Ctrl + `
+                + Trigger Suggest : Ctrl + Space / Command + I
                 + Insert line below : Ctrl + Enter / Command + Enter
                 + Multi Selection : Ctrl + D / Command + D
                 + Column Selection : Shift + Alt + Drag Mouse / Shift + Option + Drag Mouse
