@@ -48,3 +48,27 @@ console.log(
 
 console.log(emoji.includes('🦁')); // true
 console.log(emoji.indexOf('🦁')); // 4
+
+let sliceArray = emoji.slice(0, 2);
+console.log(emoji); // [ '⭐', '🍎', '🍉', '❤️', '🦁' ]
+console.log(sliceArray); // [ '⭐', '🍎' ]
+sliceArray = emoji.slice();
+console.log(sliceArray); // [ '⭐', '🍎', '🍉', '❤️', '🦁' ]
+sliceArray = emoji.slice(-1);
+console.log(sliceArray); // [ '🦁' ]
+
+const numberArray1 = [1, 2, 3];
+const numberArray2 = [4, 5];
+const concatArray = numberArray1.concat(numberArray2);
+console.log(concatArray); // [ 1, 2, 3, 4, 5 ]
+
+const reverseArray = concatArray.reverse();
+console.log(reverseArray); // [ 5, 4, 3, 2, 1 ]
+
+let numberArray3 = [1, [2, [3, 4], 5]];
+const flatArray = numberArray3.flat(3);
+console.log(flatArray); // [ 1, 2, 3, 4, 5 ]
+
+console.log(flatArray.fill(0)); // [ 0, 0, 0, 0, 0 ]
+console.log(flatArray.fill(5, 4)); // [ 0, 0, 0, 0, 5 ]
+console.log(flatArray.fill('A', 1)); // [ 0, 'A', 'A', 'A', 'A' ]
