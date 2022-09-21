@@ -72,3 +72,5 @@ console.log(flatArray); // [ 1, 2, 3, 4, 5 ]
 console.log(flatArray.fill(0)); // [ 0, 0, 0, 0, 0 ]
 console.log(flatArray.fill(5, 4)); // [ 0, 0, 0, 0, 5 ]
 console.log(flatArray.fill('A', 1)); // [ 0, 'A', 'A', 'A', 'A' ]
+
+console.log(flatArray.join(' / ')); // 0 / A / A / A / A
