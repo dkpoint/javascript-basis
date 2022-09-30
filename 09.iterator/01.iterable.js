@@ -28,3 +28,27 @@ while (true) {
 // 1
 // 2
 // 3
+
+function makeIterator(initialValue, maxValue, callback) {
+  return {
+    [Symbol.iterator]() {
+      const max_number = maxValue;
+      let number = initialValue;
+
+      return {
+        next() {
+          return { value: callback(number++), done: number > max_number };
+        },
+      };
+    },
+  };
+}
+
+const multiple = makeIterator(0, 4, (number) => number * 2);
+for (const number of multiple) {
+  console.log(number);
+}
+// 0
+// 2
+// 4
+// 6
