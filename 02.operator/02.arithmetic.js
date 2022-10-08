@@ -15,10 +15,10 @@
 
 console.log(50 + 50);
 console.log(101 - 1);
-console.log(50*2);
+console.log(50 * 2);
 console.log(201 % 101);
 console.log(Math.pow(10, 2));
 console.log(10 ** 2);
 
 console.log('50' + 50);
-console.log(typeof ('50'+50));
+console.log(typeof ('50' + 50));
