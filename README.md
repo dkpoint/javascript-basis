@@ -11,11 +11,12 @@
                 + HTML CSS Support
                 + Live Server
 
-            # Settings
+             # Settings
                 + Editor > Tab Size = 2
                 + Editor > Bracket Pair Colorization: Enabled = Check V
                 + Editor > Format On Save = Check V
                 + Editor > Default Formatter : Prettier - Code formatter
+                + Editor: Detect Indentation : Uncheck
                 + Prettier > Tab Width = 2
                 + Prettier > Jsx Single Quote = Check V
                 + prettier > Single Quote = Check V
