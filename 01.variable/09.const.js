@@ -5,7 +5,7 @@
             + let : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 */
 
-// let : Reassignable, Mutable
+// let : ReAssignable, Mutable
 let item = 'fruit';
 item = 'flower';
 
