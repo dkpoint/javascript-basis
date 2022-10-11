@@ -1,0 +1,21 @@
+{
+  "name": "javascript-basis",
+  "version": "1.0.0",
+  "description": "javascript-basis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkpoint/javascript-basis.git"
+  },
+  "keywords": [],
+  "author": "DKPoint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkpoint/javascript-basis/issues"
+  },
+  "homepage": "https://github.com/dkpoint/javascript-basis#readme",
+  "type": "module"
+}
