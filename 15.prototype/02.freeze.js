@@ -1,7 +1,7 @@
 /*
     @ Freeze
         # Reference
-            + Object.defineProperties() : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties
+            + Object.freeze() : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
 */
 
 const moon = {
