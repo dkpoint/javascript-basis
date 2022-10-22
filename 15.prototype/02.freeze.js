@@ -2,6 +2,7 @@
     @ Freeze
         # Reference
             + Object.freeze() : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
+            + Object.isFrozen() : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen
 */
 
 const moon = {
@@ -13,8 +14,11 @@ const moon = {
 };
 
 Object.freeze(moon);
+console.log(moon); // { name: 'Moon', emoji: { full: '🌕', crescent: '🌜' } }
+console.log(Object.isFrozen(moon)); // true
 // moon.name = 'crescent-moon';  // TypeError: Cannot assign to read only property 'name' of object '#<Object>'
 // delete moon.name; // TypeError: Cannot delete property 'name' of #<Object>
+// moon.color = 'white'; // TypeError: Cannot add property color, object is not extensible
 
 moon.emoji.crescent = '🌙';
 console.log(moon.emoji.crescent); // 🌙 attributes of child object can be modified
