@@ -11,17 +11,21 @@
                 + HTML CSS Support
                 + Live Server
 
-             # Settings
-                + Editor > Tab Size = 2
-                + Editor > Bracket Pair Colorization: Enabled = Check V
-                + Editor > Format On Save = Check V
-                + Editor > Default Formatter : Prettier - Code formatter
+            # Settings
+                + Editor: Tab Size = 2
+                + Editor: Bracket Pair Colorization: Enabled = Check V
+                + Editor: Format On Save = Check V
+                + Editor: Default Formatter : Prettier - Code formatter
                 + Editor: Detect Indentation : Uncheck
-                + Prettier > Tab Width = 2
-                + Prettier > Jsx Single Quote = Check V
-                + prettier > Single Quote = Check V
-                + JavaScript > Preferences: Quote Style = single
-                + TypeScript > Preferences: Quote Style = single
+                + Editor: Token Color Customizations
+                  "editor.tokenColorCustomizations": {
+                    "comments": "#D9B2A7"
+                  }
+                + Prettier: Tab Width = 2
+                + Prettier: Jsx Single Quote = Check V
+                + Prettier: Single Quote = Check V
+                + JavaScript: Preferences: Quote Style = single
+                + TypeScript: Preferences: Quote Style = single
 
             # Keyboard Shortcuts(Windows OS / Mac OS)
                 + Settings : Ctrl + , / Command + ,
